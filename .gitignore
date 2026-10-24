@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local AMC data and generated files
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.import_failed.jsonl
+models/
+*.onnx
+*.safetensors
+*.blob
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
